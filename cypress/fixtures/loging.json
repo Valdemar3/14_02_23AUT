@@ -1,0 +1,13 @@
+{
+    "firstName": "Jack",
+    "lastName": "Niklson",
+    "email": "jack@rer.com",
+    "adress1": "FuckStreet",
+    "city": "Fucking city",
+    "regionState": "Grevenmacher",
+    "zipCode": "1234321",
+    "Country": "Luxembourg",
+    "loginName": "jackrercom",
+    "pasw": "qwerty",
+    "paswConf": "qwerty"
+  }
