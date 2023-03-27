@@ -13,6 +13,7 @@ import * as loging from '../../fixtures/loging.json'
     loging.pasw = faker.internet.password(15)
     loging.zipCode = faker.address.zipCode('####')
 
+    //let pass=0;
 
 describe ('Test Suite Registration and Autorization', () => {
     beforeEach('Visit main page',()=>{
@@ -48,6 +49,9 @@ describe ('Test Suite Registration and Autorization', () => {
         .type(loging.loginName)
        cy.get('#AccountFrm_password').clear()
         .type(loging.pasw)
+        // cy.get('#AccountFrm_password').then(el => {
+        //     pass = el.text
+        // })
        cy.get('#AccountFrm_confirm').clear()
         .type(loging.pasw)
        cy.get('#AccountFrm_agree').check()
