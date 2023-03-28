@@ -17,7 +17,7 @@ import * as loging from '../../fixtures/loging.json'
 describe ('Test Suite Registration and Autorization', () => {
     beforeEach('Visit main page',()=>{
         cy.log('**Open web home page**')
-        cy.visit('https://automationteststore.com/')
+        cy.visit('/')
     })
     it('Registration', ()=> {  
         cy.log('**Search Login and Register**')
